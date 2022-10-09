@@ -1,0 +1,25 @@
+.GridBox {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 350px 350px 350px;
+    grid-gap: 6px;
+    justify-items: center;
+    align-items: center;
+}
+
+.mainDiv {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    height: auto;
+    padding-Bottom: 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.Itemm:hover{
+    
+        transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   
+}
